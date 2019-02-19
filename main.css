@@ -1,9 +1,3 @@
-/* ==== GENERAL STYLES ==== */
-
-* {
-	box-sizing: border-box;
-}
-
 /* ==== FULL SCREEN HEADER ==== */
 
 .cover {
@@ -16,7 +10,8 @@
 }
 
 .wrapper {
-	display: table-cell;
+  display: table-cell;
+  width: 90%;
   vertical-align: middle;
   text-align: center;
 }
@@ -25,12 +20,9 @@ h1 {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 40px;
   color: #333;
-  line-height: 3rem;
+  line-height: 2.5rem;
   letter-spacing: .1rem;
-  margin-bottom: .5rem;
-	text-transform: uppercase;
-  padding-bottom: 260px;
-  
+  padding-bottom: 260px; 
 }
 
 h2 {
