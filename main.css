@@ -1,0 +1,42 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* ==== FULL SCREEN HEADER ==== */
+
+.cover {
+  background: url('https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+	display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  color: #333;
+  line-height: 3rem;
+  letter-spacing: .1rem;
+  margin-bottom: .5rem;
+	text-transform: uppercase;
+  padding-bottom: 260px;
+  
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  color: #333;
+  font-style: italic;
+  font-size: 20px;
+}
+
